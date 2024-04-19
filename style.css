@@ -539,6 +539,24 @@ span {
   }
 }
 @media (max-width: 991px) {
+  .service-info h4 {
+    font-size: 2rem;
+  }
+  .service-info p {
+    font-size: 1.5rem;
+  }
+  .btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: black;
+    border: 2px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3 ease-in-out;
+  }
   .down-arrow {
     position: relative;
   }
@@ -577,6 +595,12 @@ span {
 }
 
 @media (max-width: 895px) {
+  /.service-info h4 {
+    font-size: 2rem;
+  }
+  .service-info p {
+    font-size: 1.5rem;
+  }
   #menu-icon {
     display: block;
   }
