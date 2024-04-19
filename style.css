@@ -539,6 +539,12 @@ span {
   }
 }
 @media (max-width: 991px) {
+  .down-arrow {
+    bottom: -20px;
+  }
+  .home {
+    gap: 4rem;
+  }
   .service-info h4 {
     font-size: 2rem;
   }
@@ -547,7 +553,7 @@ span {
   }
   .btn {
     display: inline-block;
-    padding: 1rem 2.8rem;
+    padding: 1rem 2.8rem !important;
     background: var(--main-color);
     border-radius: 4rem;
     font-size: 1.6rem;
@@ -595,7 +601,7 @@ span {
 }
 
 @media (max-width: 895px) {
-  /.service-info h4 {
+  .service-info h4 {
     font-size: 2rem;
   }
   .service-info p {
