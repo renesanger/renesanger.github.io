@@ -552,7 +552,7 @@ span {
     font-size: 1.5rem;
   }
   .btn {
-    -webkit-appearance: none !important;
+    /* -webkit-appearance: none !important; */
     display: inline-block;
     padding: 1rem 2.8rem !important;
     background: var(--main-color);
