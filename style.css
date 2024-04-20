@@ -552,6 +552,7 @@ span {
     font-size: 1.5rem;
   }
   .btn {
+    -webkit-appearance: none !important;
     display: inline-block;
     padding: 1rem 2.8rem !important;
     background: var(--main-color);
@@ -569,6 +570,16 @@ span {
   header {
     padding: 2rem 3%;
   }
+  .services,
+  .experience,
+  .contact {
+    padding-top: 50px !important;
+  }
+
+  .services {
+    padding-bottom: 0px !important;
+  }
+
   section {
     padding: 10rem 3% 2rem;
   }
