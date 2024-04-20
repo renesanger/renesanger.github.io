@@ -570,11 +570,11 @@ span {
   header {
     padding: 2rem 3%;
   }
-  .services,
+  /* .services,
   .experience,
   .contact {
     padding-top: 50px !important;
-  }
+  } */
 
   .services {
     padding-bottom: 0px !important;
